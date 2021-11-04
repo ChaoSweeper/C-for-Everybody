@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    float s; //Create a float to store the users input
+    printf("Enter a number between 0 & 1: \n"); // Ask user for a number
+    scanf("%f", &s); // Take in user input and assign it to s
+    printf("The sine of %f is %f\n", s, sin(s)); // Calculate the user number and print the results
+    return 0;
+}
